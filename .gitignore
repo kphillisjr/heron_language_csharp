@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/HeronEngine/.vs
+/HeronEngine/net8.0-windows
+/HeronEdit/obj
+/HeronEngine/obj
+/HeronStandardLibrary/obj
+/Peg/bin/Debug
+/Peg/obj
+/Peg2/obj
+/Util/obj
+/.vs
