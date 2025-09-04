@@ -1,6 +1,8 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeronEdit", "..\HeronEdit\HeronEdit.csproj", "{5C143DF3-7452-4155-B5A9-0A32ACD29941}"
 	ProjectSection(ProjectDependencies) = postProject
 		{E3C7F929-5004-4403-8C10-0B20645D2D27} = {E3C7F929-5004-4403-8C10-0B20645D2D27}
@@ -115,5 +117,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {92A57C3D-03BE-4320-B63F-93A3BB4A779D}
 	EndGlobalSection
 EndGlobal

@@ -2,11 +2,11 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <StartArguments>samples\MemoizeDemo.heron</StartArguments>
-    <StartWorkingDirectory>C:\dev\heron\HeronEngine\</StartWorkingDirectory>
+    <StartWorkingDirectory>$(MSBuildProjectDirectory)\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <StartArguments>tests\TestViewport.heron</StartArguments>
-    <StartWorkingDirectory>C:\dev\heron\HeronEngine\</StartWorkingDirectory>
+    <StartWorkingDirectory>$(MSBuildProjectDirectory)\</StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup>
     <PublishUrlHistory>publish\</PublishUrlHistory>
@@ -22,4 +22,9 @@
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
     <ErrorReportUrlHistory />
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="ViewportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>
